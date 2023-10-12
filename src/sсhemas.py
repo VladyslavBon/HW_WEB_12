@@ -11,7 +11,7 @@ class ContactBase(BaseModel):
 class ContactCreate(ContactBase):
     pass
 
-class ContactResponce(BaseModel):
+class ContactResponse(BaseModel):
     id: int = 1
     firstname: str
     lastname: str
